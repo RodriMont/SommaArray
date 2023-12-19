@@ -16,9 +16,21 @@ public class App {
             int numeroUtente = scanner.nextInt();
             arr[i] = numeroUtente;
         }
-  
+
         scanner.close();
     }
+
+
+
+    public static int sommaAray (int[] arr){
+        int somma = 0;
+        for(int i=0; i < arr.length; i++){
+            somma += arr[i];
+        }
+
+        return somma;
+    }
+
 
    
 }

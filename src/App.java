@@ -16,11 +16,7 @@ public class App {
             int numeroUtente = scanner.nextInt();
             arr[i] = numeroUtente;
         }
-
-            
-      
-
-        
+  
         scanner.close();
     }
 

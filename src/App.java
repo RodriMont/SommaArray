@@ -17,6 +17,8 @@ public class App {
             arr[i] = numeroUtente;
         }
 
+        System.out.println("La somma è: " + sommaAray(arr));
+
         scanner.close();
     }
 
